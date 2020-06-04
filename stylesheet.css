@@ -1,0 +1,63 @@
+html {
+    text-align: center;
+    background-color: black;
+    /*this is the css code for the whole html page, I am using it for the background colour and the text align*/
+}
+h1 {
+    color: white;
+    font-size: 20px;
+    font-family: cursive;
+    /*This is the css code for the heading 1*/
+}
+p {
+    color: white;
+    font-size: 15px;
+    font-family: cursive;
+    /*This is the css code for the paragraph*/
+}
+h2 {
+    color: white;
+    font-size: 20px;
+    font-family: cursive;
+    /*This is the css code for the heading 2*/
+}
+a {
+    color: white;
+    font-size: 15px;
+    font-family: cursive;
+  border: 2px solid white;
+  border-radius: 10px;
+    border-width: thin;
+    text-decoration: none;
+    word-spacing: inherit;   
+    /*this is the css code for the link surrounding border*/
+}
+button {
+    background-color: black;
+    color: white;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 20px;
+    /*this is the css code for buttons*/
+}
+ul {
+    text-align: center;
+    color: white;
+    font-family: cursive;
+    font-size: 20px;
+    /*this is the css code for an unordered list with mine it is the menu*/
+}
+button:hover {
+    background-color: grey;
+    text-decoration: underline;
+}
+footer {
+    border-color: white;
+    border-style: groove;
+    /*this is the css code for the footer*/
+}
+.grid-container {
+  display: grid;
+  grid-column-gap: 50px;
+    color: white;
+}
